@@ -2,14 +2,14 @@ import React from 'react';
 import {
   Container,
   Title,
-  SubTitle,
+  Grettings,
 } from './styles';
 
 export function Welcome() {
   return (
     <Container>
       <Title>Olá, Bigger!</Title>
-      <SubTitle>Bem-vindo ao Bigbus</SubTitle>
+      <Grettings>Bem-vindo ao Bigbus</Grettings>
     </Container>
   );
 }

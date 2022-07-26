@@ -10,11 +10,11 @@ export const Title = styled.Text`
   font-family: "Poppins_700Bold";
   font-size: 24px;
   line-height: 32px;
-  color: ${({ theme }) => theme.colors.secondary};
+  color: ${({ theme }) => theme.colors.primary_dark};
 `;
 
-export const SubTitle = styled.Text`
+export const Grettings = styled.Text`
   font-family: "Poppins_400Regular";
   font-size: 16px;
-  color: ${({ theme }) => theme.colors.secondary};
+  color: ${({ theme }) => theme.colors.primary_dark};
 `;
