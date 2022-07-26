@@ -12,7 +12,3 @@ Urban Mobility
 ## Libs
 
 - Styled Components
-
-## Screens
-
-![App Screenshot](.github/screens.png)
