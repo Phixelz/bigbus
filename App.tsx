@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { Home } from './src/pages/Home';
+import {  } from './src/pages/SignIn';
 import AppLoading from "expo-app-loading";
 
 import { ThemeProvider } from 'styled-components';
@@ -12,6 +12,7 @@ import {
   Poppins_600SemiBold,
   Poppins_700Bold,
 } from '@expo-google-fonts/poppins';
+import { SignIn } from './src/pages/SignIn';
 
 export function App() {
   const [fontsLoaded] = useFonts({
@@ -27,7 +28,7 @@ export function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Home />
+      <SignIn />
     </ThemeProvider>
   );
 }
