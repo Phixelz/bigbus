@@ -2,15 +2,16 @@ export default {
     colors: {
       primary: '#663CC0',
       primary_light: '#FCFCFC',
-      primary_dark: '#373737',
+      primary_dark: '#603CAC',
   
-      secondary: '#F2F2F2',
+      secondary: '#F0F0F0',
       secondary_light: '#C9C9C9',
+      secondary_dark: '#373737',
 
       attention: '#E3D65A',
       success: '#4FDA8F',
   
-      background: '#FFFFFF',
+      white: '#FFFFFF',
     },
   };
   
