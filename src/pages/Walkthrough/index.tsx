@@ -14,11 +14,11 @@ export function Walkthrough() {
     <Container>
       <Title>Vamos começar!</Title>
       <Description>
-        Favorite um endereço primário utilizado com frequência
+        Adicione um endereço principal utilizado com frequência
       </Description>
 
       <Wrapper>
-        <Label>Endereço 1</Label>
+        <Label>Endereço principal</Label>
         <TextInput
           placeholder='Ex: Av. do Contorno'
           placeholderTextColor='#8F8F8F'
