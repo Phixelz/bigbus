@@ -8,9 +8,10 @@ export const Container = styled.View`
 
 export const Header = styled.View`
   background-color: ${({ theme }) => theme.colors.primary};
-  padding: 64px 16px 0;
+  padding: 56px 16px 0;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
+
 `;
 
 export const Content = styled.View`

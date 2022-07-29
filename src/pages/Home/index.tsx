@@ -31,7 +31,10 @@ export function Home() {
           placeholder='Para onde você quer ir?'
           placeholderTextColor='#BFB1DE'
         />
-        <Button type='primary' title='Buscar Linhas' />
+        <Button 
+          type='primary' 
+          title='Buscar Linhas' 
+        />
       </Header>
 
       <MapView
