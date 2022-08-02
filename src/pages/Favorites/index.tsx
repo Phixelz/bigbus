@@ -53,6 +53,7 @@ export function Favorites() {
       <Header>
         <Icon name='arrow-left' />
         <Title>Favoritos</Title>
+        <Icon name='search' />
       </Header>
 
       <SectionList
