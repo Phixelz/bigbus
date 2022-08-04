@@ -1,7 +1,7 @@
-import styled, {css} from "styled-components/native";
+import styled, {css} from 'styled-components/native';
 
 interface ButtonProps {
-  type: "default" | "primary" | "disabled" | "link";
+  type: 'default' | 'primary' | 'disabled' | 'simple';
 }
 
 export const CustomButton = styled.TouchableOpacity.attrs({
@@ -21,10 +21,10 @@ export const CustomButton = styled.TouchableOpacity.attrs({
   background-color: ${({ theme }) => theme.colors.primary};
   padding: 16px;
   opacity: 0.5;
-  margin: 24px 0 0;
+  margin: 16px 0 0;
  `}
 
- ${(props) => props.type === 'link' && css`
+ ${(props) => props.type === 'simple' && css`
   padding: 16px;
   margin: 12px;
  `}
@@ -38,12 +38,12 @@ export const CustomButton = styled.TouchableOpacity.attrs({
 
 export const ButtonText = styled.Text<ButtonProps>`
   font-size: 16px;
-  font-family: "Poppins_600SemiBold";
+  font-family: 'Poppins_600SemiBold';
   color: ${({ theme }) => theme.colors.white};
 
   ${(props) => props.type === 'link' && css`
   font-size: 16px;
-  font-family: "Poppins_600SemiBold";
+  font-family: 'Poppins_600SemiBold';
   color: ${({ theme }) => theme.colors.primary};
  `}
 `;

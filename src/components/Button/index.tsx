@@ -1,9 +1,9 @@
-import React from "react";
-import { TouchableOpacityProps } from "react-native";
-import { CustomButton, ButtonText, } from "../Button/styles";
+import React from 'react';
+import { TouchableOpacityProps } from 'react-native';
+import { CustomButton, ButtonText, } from '../Button/styles';
 
 interface ButtonProps extends TouchableOpacityProps {
-  type: "default" | "primary" | "disabled" | "link";
+  type: 'default' | 'primary' | 'disabled' | 'simple';
   title: string;
 }
 
